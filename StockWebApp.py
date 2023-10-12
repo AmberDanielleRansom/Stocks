@@ -20,11 +20,6 @@ st.image (image,use_column_width=True)
  
 #Create a function to get the users input
 
-stock_symbol = st.sidebar.text_input ("Stock Symbol", "AMZN")  
-stock_symbol = st.sidebar.text_input ("Stock Symbol", "TLSA")
-stock_symbol = st.sidebar.text_input ("Stock Symbol", "GOOG")
-
-
 amount = 1000
 investment = []
 money_end = amount
